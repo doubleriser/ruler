@@ -202,6 +202,7 @@ export default function Home() {
 
     return (
         <div>
+            <h1>Online-Ruler</h1>
             <canvas
                 ref={rulerRef}
                 id='ruler'
