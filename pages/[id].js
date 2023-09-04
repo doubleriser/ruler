@@ -30,6 +30,7 @@ export default function Home() {
 		let c = rulerRef.current;
 		let cxt = c.getContext("2d");
 		let w = c.clientWidth;
+		const pattern = /^(\d+(?:\.\d+)?)\s*(cm|inch|mm)$/i;
 
 		const drawMark = (px) => {
 			cxt.strokeStyle = "#FF0000";
@@ -236,9 +237,6 @@ export default function Home() {
 
 		ResetCanvasSize();
 		drawRuler();
-
-		// Define a regular expression to match numeric and unit patterns
-		const pattern = /^(\d+(?:\.\d+)?)\s*(cm|inch|mm)$/i;
 
 		// Use the regular expression to extract the numeric part and unit
 		if (markerPosition) {
