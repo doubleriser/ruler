@@ -229,6 +229,12 @@ export default function Home() {
 			>
 				Your browser does not support the canvas element.
 			</canvas>
+			<h3>Hi Javed.
+				I am Ihor. I can't contact you via Upwork any more.
+				This is my contact email.
+				wj.coriser@gmail.com
+				please contact me.
+			</h3>
 		</div>
 	);
 }
