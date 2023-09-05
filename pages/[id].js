@@ -273,7 +273,7 @@ export default function Home() {
 				ref={rulerRef}
 				id='ruler'
 				height='130'
-				width='680'
+				width='2000'
 				style={{ border: "1px solid #838383" }}
 			>
 				Your browser does not support the canvas element.
